@@ -1,0 +1,98 @@
+/*============================================
+         css part start here
+==============================================*/
+#summary_part{
+    width: 100%;
+    margin-top: 100px;
+    .summary_body{
+        .container{
+            .summary_main{
+                background-color: #ffff;
+                .row{
+                    .col-lg-12{
+                        text-align: center;
+                        .summary_text{
+                            h3{
+                                font-size: 35px;
+                                font-weight: 700;
+                                font-family: 'Open Sans', sans-serif;
+                                text-transform: capitalize;
+                            }
+                        }
+                    }
+                }
+                .edu_exp{
+                    margin-top: 80px;
+                    .row{
+                        .col-lg-6{
+                            h3{
+                                font-size: 25px;
+                                font-weight: 700;
+                                font-family: 'Open Sans', sans-serif;
+                                text-transform: capitalize;
+                            }
+                        }
+                    }
+                }
+                .edu_exp_details{
+                    margin-top: 30px;
+                    .row{
+                        .col-lg-6{
+                            h3{
+                                font-size: 22px;
+                                font-weight: 700;
+                                font-family: 'Open Sans', sans-serif;
+                                text-transform: capitalize;
+                                color: #000;
+                            }
+                            h4{
+                                font-size: 18px;
+                                font-weight: 500;
+                                font-family: 'Open Sans', sans-serif;
+                                text-transform: capitalize;
+                                color: #757575;
+                            }
+                            p{
+                                font-size: 15px;
+                                font-weight: 500;
+                                font-family: 'Open Sans', sans-serif;
+                                text-transform: capitalize;
+                                color: #757575;
+                                padding-top: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+            .summary_btn{
+                text-align: center;
+                margin-top: 30px;
+                a{
+                    background: #fff;
+                    border-radius: 5px;
+                    border: 1px solid #FD6E0A;
+                    padding: 10px 15px;
+                    margin-right: 15px;
+                    text-decoration: none;
+                    color: #FD6E0A;
+                    text-transform: capitalize;
+                    i{
+                        padding-right: 5px;
+                    }
+                    &:hover{
+                        transition: .5s;
+                        background: #FD6E0A;
+                        border: 1px solid #FD6E0A;
+                        color: #fff;
+                        i{
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*============================================
+         css part ends here
+==============================================*/
