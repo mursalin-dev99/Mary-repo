@@ -1,0 +1,44 @@
+/*============================================
+        navbar css part start here
+==============================================*/
+#navbar_part{
+    width: 100%;
+    .nav_body{
+        height: 90px;
+        .navbar{
+            padding-top: 15px;
+            .nav_logo{
+                color: #000;
+                font-size: 30px;
+                font-weight: 700;
+                font-family: 'Open Sans', sans-serif;
+                text-transform: capitalize;
+                span{
+                    color: #FD6E0A;
+                }
+            }
+        }
+        .collapse{
+            ul{
+                li{
+                    padding-left: 30px;
+                    a{
+                        color: #474747;
+                        font-size: 20px;
+                        font-weight: 500;
+                        font-family: 'Open Sans', sans-serif;
+                        text-transform: capitalize;
+                    }
+                    .nav_btn{
+                        background: #FD6E0A;
+                        color: #fff;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+/*============================================
+        navbar css part ends here
+==============================================*/
